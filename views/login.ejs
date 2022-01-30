@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>NaruciFood - Prijava</title>
+</head>
+<body>
+  <div class="divContent">
+    <div class="logoDiv" id="logoDiv">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="/"><span class="prvo">Naruci</span><span class="drugo">Food</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row mt-5" id="login">
+      <div class="col-md-6 m-auto">
+        <div class="card card-body">
+          <h1 class="text-center mb-3">
+            <i class="fas fa-sign-in-alt"></i> Prijava
+          </h1>
+          <form action="/login" method="POST">
+            <div class="form-group">
+              <label for="username">Korisnicko ime</label>
+              <input
+                type="username"
+                id="username"
+                name="username"
+                class="form-control"
+                placeholder="Unesite korisnicko ime"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Šifra</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+                placeholder="Unesite sifru"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="dugme">
+              Prijavi se
+            </button>
+          </form>
+          <p class="lead mt-4">
+            Nemate nalog? <a href="/register" id="link">Registrujte se</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

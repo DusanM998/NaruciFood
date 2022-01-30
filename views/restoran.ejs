@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NaruciFood - Korisnik</title>
+    <meta charset="utf-8"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+</head>
+<body>
+    <div class="divMeni">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><span class="prvo">Naruci</span><span class="drugo">Food</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav"> 
+              <li class="nav-item">    
+                  <div class="nav-link"> <%=username %></div>      
+              </li>
+              <li class="nav-item">                   
+                  <div class="nav-link" id="divlogout"><span class="hov glyphicon glyphicon-log-in"><a href="/">Logout</a>  </span></div>     
+              </li>               
+          </ul>  
+            </ul>
+        </div>
+    </nav>
+</div>
+    <div class="containerKorisnikProfil">
+        <div class="leviDivKorisnikProfil">
+        </div>
+        <div class="strelicaDivKorisnikProfil">
+            <span class="strelicaDesno glyphicon glyphicon-chevron-right"></span>
+            <span class="strelicaLevo glyphicon glyphicon-chevron-left"></span>
+        </div>
+
+        <div class="sadrzajDivKorisnikProfil">
+
+           <div>
+            <form action="/filterRestoranaPoNazivu" method="POST">
+                <div class="form-group">
+                  <label for="naziv">Naziv</label>
+                  <input
+                    type="naziv"
+                    id="naziv"
+                    name="naziv"
+                    class="form-control"
+                    placeholder="Unesite naziv restorana"
+                  />
+                </div>
+                <button type="submit" class="btn btn-warning">
+                  Trazi
+                </button>
+              </form>
+
+              <div style="display: flex; justify-content: space-around;">
+                <div >
+                <h4 style="color: #ffc107; width: 5%; padding-left: 60px;">Meni</h4>
+                <table>
+                    <tr >
+                      <th style="color: #ffc107;padding-right: 70px; ">Naziv  </th>
+                      <th style="color: #ffc107;">Cena </th>
+                    </tr>
+                    <tr>
+                    <% hrana.forEach(function(hrana){ %>
+                      <td style="color: #ffc107;"><%=hrana.naziv %></td>
+                      <td style="color: #ffc107;"><%=hrana.cena %></td>
+                    </tr>
+                    <%}) %>
+                  </table>
+                </div>
+                  <form action="http://localhost:3000/naruci" method="POST">
+                    <div class="form-group">
+                      <label for="naziv" style="color:#ffc107 ;">Naziv</label>
+                      <input style="width: 80%"
+                        type="text"
+                        id="naziv"
+                        name="naziv"
+                        class="form-control"
+                        placeholder="Unesite naziv hrane"
+                      />
+                    </div>
+                    <button type="submit" class="btn btn-warning">
+                      Naruci
+                    </button>
+                  </form>
+              </div>
+           </div>
+
+        </div>
+
+    </div>
+    
+    <div>
+      
+      
+  </div>
+
+</body>
+</html>

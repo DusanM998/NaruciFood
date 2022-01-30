@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaruciFood - Register</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <div class="divContent">
+    <div class="logoDiv" id="logoDiv">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="/"><span class="prvo">Naruci</span><span class="drugo">Food</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6 m-auto">
+        <div class="card card-body">
+          <h1 class="text-center mb-3">
+            <i class="fas fa-user-plus"></i> Registracija
+          </h1>
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="ime">Ime</label>
+              <input
+                type="ime"
+                id="ime"
+                name="ime"
+                class="form-control"
+                placeholder="Unesite ime"
+              />
+            </div>
+            <div class="form-group">
+              <label for="prezime">Prezime</label>
+              <input
+                type="prezime"
+                id="prezime"
+                name="prezime"
+                class="form-control"
+                placeholder="Unesite prezime"
+                value="<%= typeof prezime != 'undefined' ? prezime : '' %>"
+              />
+            </div>
+            <div class="form-group">
+              <label for="username">Korisnicko ime</label>
+              <input
+                type="username"
+                id="username"
+                name="username"
+                class="form-control"
+                placeholder="Unesite korisničko ime"
+                value="<%= typeof username != 'undefined' ? username : '' %>"
+              />
+            </div>
+            <div class="form-group">
+              <label for="mail">Email</label>
+              <input
+                type="mail"
+                id="mail"
+                name="mail"
+                class="form-control"
+                placeholder="Unesite email"
+                value="<%= typeof mail != 'undefined' ? mail : '' %>"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Lozinka</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+                placeholder="Unesite lozinku"
+                value="<%= typeof password != 'undefined' ? password : '' %>"
+              />
+            </div>
+            <div class="form-group">
+              <label for="adresa">Adresa</label>
+              <input
+                type="adresa"
+                id="adresa"
+                name="adresa"
+                class="form-control"
+                placeholder="Unesite adresu"
+                value="<%= typeof adresa != 'undefined' ? adresa : '' %>"
+              />
+            </div>
+            <div class="form-group">
+              <label for="brojTelefona">Broj telefona</label>
+              <input
+                type="brojTelefona"
+                id="brojTelefona"
+                name="brojTelefona"
+                class="form-control"
+                placeholder="Unesite broj telefona"
+                value="<%= typeof brojTelefona != 'undefined' ? brojTelefona : '' %>"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="dugme">
+              Registruj se
+            </button>
+          </form>
+          <p class="lead mt-4">
+            Već imate nalog? <a href="/login" id="link">Prijavite se</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1091 @@
+body{
+    background-color:white;
+}
+
+@media only screen and (max-width: 900px) {
+    .loginFormClasName{
+        width: 80%;
+        background-color: blue;
+    } 
+}
+
+.prvo {
+    font-family: Magneto;
+    font-size: 30px;
+    color: rgb(255,192,0);
+    background-color: white;
+}
+.drugo {
+    font-family: Magneto;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+.prvo2 {
+    font-family: Magneto;
+    font-size: 50px;
+    color: rgb(255,192,0);
+
+}
+
+.drugo2 {
+    font-family: Magneto;
+    font-size: 50px;
+    color: white;
+
+}
+.drugo3 {
+    font-family: Magneto;
+    font-size: 50px;
+    color: black;
+}
+.drugo4 {
+    font-family: Magneto;
+    font-size: 30px;
+    color: white;
+    
+}
+.prvo4 {
+    font-family: Magneto;
+    font-size: 30px;
+    color: rgb(255,192,0);
+
+}
+.nav-link{
+    font-size:13px;
+    color:dimgrey;
+}
+#slika {
+    width: 100%;
+    height: 390px;
+    background: url("Slike/slika6.png") no-repeat;
+    background-size: cover;
+    margin: 0px;
+    border-top: 2px solid rgb(255,192,0);
+    border-bottom: 2px solid rgb(255,192,0);
+}
+.text1{
+    width:400px;
+    height:300px;
+
+    text-align:center;
+}
+.text2{
+    color:white;
+    font-size:15px;
+}
+.text3 {
+    color: dimgray;
+    font-size: 12px;
+}
+.text4 {
+    height: auto;
+    text-align: center;
+    border-bottom: 2px solid rgb(255,192,0);
+}
+#slika2 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0px;
+    
+}
+nav{
+    height:50px;
+    margin-top:20px;
+    background-color:white;
+}
+ul{
+    margin:0px;
+    background-color:white;
+}
+#navbarNav {
+    background-color: white;
+    margin:0px;
+}
+.navbar-brand{
+    background-color:white;
+}
+#ikonice {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background:url("Slike/slika9.jpg");
+}
+#ikonica1{
+    background-color:rgb(255,192,0);
+}
+#ikonica2 {
+
+    background-color: rgb(255,192,0);
+}
+.ikonica{
+    width:250px;
+    height:300px;
+    background-color:rgb(255,192,0);
+    margin:30px;
+    text-align:center;
+    font-size:40px;
+    padding-top:0px;
+}
+.naslovi {
+    margin-top: 10px;
+    font-family: Microsoft JhengHei Light;
+    font-size: 20px;
+    color: white;
+}
+.ikon{
+    margin-top:20px;
+    width:90px;
+    height:90px;
+    color:white;
+}
+.opisi {
+    color: white;
+    font-family: Microsoft JhengHei Light;
+    font-size: 15px;
+
+}
+#divlog{
+    width:100px;
+    height:30px;
+
+}
+#divreg {
+    width: 100px;
+    height: 30px;
+}
+.hov:hover {
+    color: rgb(255,192,0);
+    cursor: pointer;
+}
+
+
+
+
+.loginClasName {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 60px;
+    justify-content: center;
+    
+}
+
+.loginFormClasName {
+
+    height: auto;
+    border-radius: 0px 25px 0px 25px;
+    margin: 0 auto;
+    animation: animatezoom 0.6s;
+    padding: 10px;
+    background: url("Slike/slika9.jpg");
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.divKorisnik {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: dimgray;
+    font-family: Microsoft JhengHei Light;
+    font-size: 15px;
+    text-align:center;
+    padding-top:10px;
+    border:2px solid rgb(255,192,0);
+    border-radius:5px;
+    background: url("Slike/iconStud.png") no-repeat;
+    padding-left: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+    cursor: default;
+}
+    .divKorisnik:hover {
+        
+        border: 2px solid dimgrey;
+        color:rgb(255,192,0);
+    }
+
+.divRestoran{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: dimgray;
+    font-family: Microsoft JhengHei Light;
+    font-size: 15px;
+    text-align:center;
+    padding-top:10px;
+    border:2px solid rgb(255,192,0);
+    border-radius:5px;
+    background: url("Slike/iconPos.png") no-repeat;
+    padding-left: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+    cursor: default;
+}
+.divRestoran:hover {
+        
+    border: 2px solid dimgrey;
+    color:rgb(255,192,0);
+}
+
+
+.divImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+    margin: 20px auto;
+}
+.divData{
+    width:auto;
+    height:auto;
+}
+.labelInForm{
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    color: white;
+
+}
+.labelInForm1 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255,192,0);
+}
+.textboxInForm {
+    width: 100%;
+    padding: 3px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+.logButton {
+    background-color:rgb(255,192,0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.typeUserDiv {
+    width: 100%;
+    height: 50px;
+    text-align:center;
+}
+.iks {
+    width: 20px;
+    height: 20px;
+    background: url("Slike/iks.jpg") no-repeat;
+    position:relative;
+    left:470px;
+    top:10px;
+}
+    .iks:hover {
+        background: url("Slike/ikshover.jpg") no-repeat;
+    }
+
+
+.back{
+    width: 100px;
+    height: 25px;
+    background-color:rgb(255,192,0);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.closee{
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+#labela11{
+    cursor: pointer;
+}
+
+.containerKorisnikProfil{
+    background:url("Slike/slika9.jpg");
+    width: 100%;
+    height: 1000px;
+    display:flex;
+}
+
+.strelicaDivKorisnikProfil
+{
+    background-color: rgb(255,192,0);
+
+    width: 35px;
+    height: 100%;
+
+}
+
+.leviDivKorisnikProfil{
+    background-color: rgb(255,192,0);
+    width: 1px;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+.ikonicaKorisnikProfil{
+    max-width:50%; 
+    height:auto;
+    border-radius: 50%;
+    border:5px solid white;
+    margin-top: 20px;
+    
+}
+
+@keyframes animateslide {
+   
+        0%   {width: 0%;}
+        100% {width: 100%;}
+    
+}
+.strelicaDesno{
+    font-size: 20px;
+    margin:20px auto;
+    cursor: pointer;
+
+}
+.strelicaLevo{
+    display: none;
+    font-size: 20px;
+    
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.divMeni{
+
+    
+}
+.labelaIme{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-bottom:100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labelaMeni {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+.sadrzajDivKorisnikProfil{
+
+    height:100%;
+    width:100%;
+    border-bottom: 5px solid rgb(255,192,0);
+    border-right: 35px solid rgb(255,192,0);
+    border-top: 5px solid rgb(255,192,0);
+}
+.divFormaKorisnikProfil {
+
+    width: 60%;
+    height: auto;
+    margin:20px auto;
+    border:1px solid white;
+    border-radius:10px;
+}
+.divFormaRedKorisnikProfil{
+    display:flex;
+    height:auto;
+
+    margin:15px;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.divFormaRedInfoKorisnikProfil {
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width:250px;
+}
+.divFormaRedLabelaKorisnikProfil {
+    text-align:right;
+    color: white;
+    width:250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.dugmeSacuvajUformiKorisnikProfil{
+    width:100px;
+    height:25px;
+    background-color:rgb(255,192,0);
+    color:white;
+    border-radius:5px;
+    border:none;
+    margin:10px;
+    font-size:15px;
+
+}
+.dugmeIzmeniUformiKorisnikProfil {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(255,192,0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+}
+.inputFormaRedInfoKorisnikProfil{
+    border-radius:5px;
+    border:none;
+    margin-left:20px;
+}
+.divFormaRedDugmiciKorisnikProfil {
+    display: flex;
+    height: auto;
+    margin: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+/*Hranai******************************************************/
+
+.divKorisnikHrana{
+    display:flex;
+    height:auto;
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+.divKorisnikHrana{
+    width:300px;
+    height:250px;
+
+    margin:15px;
+    border:1px solid white;
+    border-radius:5px;
+}
+.divScroll{
+    width:100%;
+    height:100%;
+    overflow-y:scroll;
+
+}
+
+    .divScroll::-webkit-scrollbar {
+        width: 6px; /* width of the entire scrollbar */
+    }
+
+    .divScroll::-webkit-scrollbar-track {
+         /* color of the tracking area */
+    }
+    .divScroll::-webkit-scrollbar-thumb {
+        background-color: rgb(255,192,0); /* color of the scroll thumb */
+        border-radius: 20px; /* roundness of the scroll thumb */
+        border: 3px; /* creates padding around scroll thumb */
+    }
+
+
+.divFilter {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    border:1px solid white;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+}
+.divHranaData {
+    width: 100%;
+    height: 70px;
+    padding:8px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divHranaSlika {
+    width: 100%;
+    height: 175px;
+    background-color: pink;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.divHranaNaslov {
+    width: 100%;
+    height: 30px;
+}
+.divHranaDugme {
+    display:flex;
+    flex-direction:row-reverse;
+    height: 30px;
+
+
+}
+.dugmePogledajOglas {
+    background-color: rgb(255,192,0);
+    border: none;
+    border-radius: 5px;
+
+}
+.divFilterlabela {
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;
+}
+.divFilterIpnut {
+    width: 200px;
+    height: 25px;
+    border:1px solid white;
+    border-radius:5px;
+    background-color:dimgrey;
+    color:white;
+}
+.divFilterDugme {
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color:rgb(255,192,0);
+    color:white;
+    border-radius: 5px;
+    margin-left:50px;
+}
+
+/*************************Hrana*******************/
+.inputFormaRedInfoHranaProfil {
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: dimgray;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin:5px;
+}
+.dugmePostaviUformiKorisnikProfil {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(255,192,0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+#inputFormaRedInfoHranaProfilId {
+    height:100px;
+}
+.divZainteresovaniKorisnik{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    height:auto;
+    border:1px solid white;
+    border-radius:10px;
+    margin:10px;
+}
+.divKorisnikSlika {
+    width: 100px;
+    height: 100px;
+   
+}
+.divKorisnikSlika1 {
+    width: 90px;
+    height: 90px;
+    margin:5px;
+    
+}
+.divKorisnikData {
+    height: 90px;
+    align-items:center;
+    margin:5px;
+    display:flex;
+    flex-wrap:wrap;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.labelaInfoOKorisniku{
+    width:300px;
+    height:50px;
+
+    margin:5px;
+}
+
+.OglasClasName {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.pogledajOglasClasName {
+    
+    height: auto;
+    border-radius: 0px 25px 0px 25px;
+    margin: 0 auto;
+    animation: animatezoom 0.6s;
+    padding: 10px;
+    background: url("Slike/slika9.jpg");
+}
+.divSadrzajOglasa {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labelaNaslovRestorana {
+    font-size: 20px;
+}
+.divTabela{
+    width: 100%;
+    overflow-y: scroll;
+
+}
+.divTabela::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+}
+
+.divTabela::-webkit-scrollbar-track {
+     /* color of the tracking area */
+}
+.divTabela::-webkit-scrollbar-thumb {
+    background-color: rgb(255,192,0); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px; /* creates padding around scroll thumb */
+}
+
+.iznos{
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    width: 80px;
+    height: 20px;
+}
+
+.izbrisi
+{   
+    width: 50px;
+    height: 50px;
+    color:rgb(255,192,0);
+}
+
+.labelInForm2 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255,230,0);
+}
+
+/*-------------------------------------
+ALERT STYLE
+-------------------------------------*/
+
+
+#modalContainer {
+	background-color:rgba(0, 0, 0, 0.3);
+	position:absolute;
+  top:0;
+	width:100%;
+	height:100%;
+	left:0px;
+	z-index:10000;
+	background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#alertBox {
+	position:relative;
+	width:33%;
+	min-height:100px;
+  max-height:400px;
+	margin-top:50px;
+	border:1px solid #fff;
+	background-color:#fff;
+	background-repeat:no-repeat;
+  top:30%;
+}
+
+#modalContainer > #alertBox {
+	position:fixed;
+}
+
+#alertBox h1 {
+	margin:0;
+	font:bold 1em Raleway,arial;
+	background-color:#f97352;
+	color:#FFF;
+	border-bottom:1px solid #f97352;
+	padding:10px 0 10px 5px;
+}
+
+#alertBox p {
+	height:50px;
+	padding-left:5px;
+  padding-top:30px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#alertBox #closeBtn {
+	display:block;
+	position:relative;
+	margin:10px auto 10px auto;
+	padding:7px;
+	border:0 none;
+	width:70px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFF;
+	background-color:#f97352;
+	border-radius: 0px;
+	text-decoration:none;
+  outline:0!important;
+}
+
+/* unrelated styles */
+
+#mContainer {
+	position:relative;
+	width:600px;
+	margin:auto;
+	padding:5px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+
+h1,h2 {
+	margin:0;
+	padding:4px;
+}
+
+code {
+	font-size:1.2em;
+	color:#069;
+}
+
+#credits {
+	position:relative;
+	margin:25px auto 0px auto;
+	width:350px; 
+	font:0.7em verdana;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	height:90px;
+	padding-top:4px;
+}
+
+#credits img {
+	float:left;
+	margin:5px 10px 5px 0px;
+	border:1px solid #000000;
+	width:80px;
+	height:79px;
+}
+
+.important {
+	background-color:#F5FCC8;
+	padding:2px;
+
+}
+
+@media (max-width: 600px) 
+{
+  #alertBox {
+	position:relative;
+	width:90%;
+  top:30%;
+    }
+}
+
+.kontaktNaslov{
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.labPodnaslov{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+#kontaktForma{
+    border-top: 2px solid rgb(255,192,0);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background:url("Slike/mail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divSadrzaj{
+   justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kontaktIme{
+    height: 30px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    border-radius: 5px;
+    width:400px;
+    margin:2px auto;
+    font-size: medium;
+}
+.kontaktEmail{
+    height: 30px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    border-radius: 5px;
+    width:400px;
+    margin:12px auto;
+    font-size: medium;
+}
+.kontaktTelefon{
+    height: 30px;
+    font-size:11px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    border-radius: 5px;
+    width:400px;
+    margin:2px auto;
+    font-size: medium;
+}
+.inputPoruka{
+    width: 400px;
+    height: 120px;
+    
+    border-radius: 5px;
+    font-size: medium;
+    margin: 2px 10px;
+}
+.dugmePosalji{
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255,192,0);
+    margin: 10px;
+}
+.dugmePosalji:hover{
+    background-color: rgb(255,192,0);
+}
+.divInputs{
+    width: 400px;;
+}
+.footer{
+    border-top: 2px solid rgb(255,192,0);
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+}
+.tekst{
+    color: white;
+    font-size: medium;
+}
+
+/*---------------------------------------
+ADMIN
+---------------------------------------*/
+
+.divAdminKorisnik {
+    width: 350px;;
+    height: 200px;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+}
+.divInformacije{
+    width:100%;
+    height:120px;
+
+}
+.dugniciKodAdmina {
+    width: 80px;
+    height: 25px;
+    background-color: rgb(255,192,0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    margin:10px;
+}
+.admin{
+    display:none;
+}
+.loginAdmin {
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.inputLoginAdmin {
+    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+
+    border: 1px solid rgb(255,192,0);
+    border-radius: 5px;
+    margin: 5px;
+}
+.dugmePrijaviAdmina {
+    width: 50%;
+    height: 25px;
+    background-color: rgb(255,192,0);
+    color: white;
+    border-radius: 5px;
+    
+    font-size: 13px;
+}
+#adminMeni{
+    display:none;
+}
+#adminSadrzaj {
+    display: none;
+}
+
+#login{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#register{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logoDiv{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid rgb(255,192,0);
+}
+
+.divContent{
+    background: url("Slike/slika9.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid rgb(255,192,0);
+    display: flex;
+    flex-direction: column;
+}
+
+#dugme{
+    background-color: rgb(255,192,0);
+    border: rgb(255,192,0);
+}
+
+#link{
+    color: rgb(255,192,0);
+}
+
+.restorani{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restoraniTabela{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#restoraniTabela td, #restoraniTabela th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#restoraniTabela tr:nth-child(even){background-color: rgb(156, 132, 61);}
+
+#restoraniTabela tr:hover {background-color: rgb(156, 132, 61);}
+
+#restoraniTabela th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255,192,0);
+    color: white;
+}
+
+.divFormaFilter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.hranaNaruci{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
